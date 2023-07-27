@@ -7,8 +7,7 @@ import { AccountLayout } from 'account';
 export { App };
 
 function App() {
-    // init custom history object to allow navigation from 
-    // anywhere in the react app (inside or outside components)
+    // init custom history object to allow navigation from anywhere in the react app
     history.navigate = useNavigate();
     history.location = useLocation();
 

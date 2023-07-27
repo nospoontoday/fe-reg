@@ -28,6 +28,8 @@ function fakeBackend() {
                     encryptedUser[key] = CryptoJS.AES.encrypt(strValue, secret).toString();
                 }
 
+                //save to db logic here
+
                 console.log('Encrypted:', encryptedUser);
                 console.log("FAKE BAKEND", user);
 

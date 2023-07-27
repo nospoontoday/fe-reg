@@ -13,8 +13,6 @@ function request(method) {
     }
 }
 
-// helper functions
-
 async function handleResponse(response) {
     const isJson = response.headers?.get('content-type')?.includes('application/json');
     const data = isJson ? await response.json() : null;

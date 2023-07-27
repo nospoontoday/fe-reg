@@ -16,7 +16,6 @@ const slice = createSlice({
     },
 });
 
-
 function createInitialState() {
     return {
         list: []
