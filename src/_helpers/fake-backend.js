@@ -31,7 +31,7 @@ function fakeBackend() {
                 //save to db logic here
 
                 console.log('Encrypted:', encryptedUser);
-                console.log("FAKE BAKEND", user);
+                console.log("FAKE BACKEND", user);
 
                 return ok();
             }
