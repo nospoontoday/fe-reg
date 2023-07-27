@@ -1,16 +1,11 @@
-import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
-import { history } from '_helpers';
 import { Alert } from '_components';
 import { AccountLayout } from 'account';
 
 export { App };
 
 function App() {
-    // init custom history object to allow navigation from anywhere in the react app
-    history.navigate = useNavigate();
-    history.location = useLocation();
-
     return (
         <div className="app-container bg-light">
             <Alert />
